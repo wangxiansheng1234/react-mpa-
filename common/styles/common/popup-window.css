@@ -1,0 +1,87 @@
+.goods-delete-tip {
+    width: 274px;
+    height: 184px;
+    position: fixed;
+    z-index: 889;
+    left: 50%;
+    top: 50%;
+    margin-left: -137px;
+    margin-top: -97px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.goods-delete-tip .delete-tip {
+    position: relative;
+    width: 100%;
+    height: 184px;
+}
+.goods-delete-tip .delete-tip .close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 10px;
+    background: url(../../images/icon_shop_del-.png) no-repeat ;
+}
+.goods-delete-tip .delete-tip .tip-msg {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+.goods-delete-tip .delete-tip .tip-msg i {
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+    background: url(../../images/icon_Exclamatory.png) no-repeat center;
+    background-size: 100%;
+}
+.goods-delete-tip .delete-tip .tip-msg i.active{
+    background: url(../../images/success.png) no-repeat center;
+    background-size: 100%;
+}
+.goods-delete-tip .delete-tip .tip-msg span {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    color: #333333;
+    font-size: 14px;
+}
+.goods-delete-tip .delete-tip .tip-btn {
+    width: 100%;
+    height: auto;
+    margin-top: 14px;
+}
+.goods-delete-tip .delete-tip .tip-btn a {
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    float: left;
+    border-radius: 2px;
+}
+.goods-delete-tip .delete-tip .tip-btn .confirm {
+    width: 90px;
+    height: 36px;
+    background: #e5213a;
+    color: #ffffff;
+    margin-left: 40px;
+}
+.goods-delete-tip .delete-tip .tip-btn .cancel {
+    width: 88px;
+    height: 34px;
+    border: 1px solid #e0e0e0;
+    margin-left: 14px;
+}
+.goods-delete-tip .delete-tip .know{
+    width: 90px;
+    height: 36px;
+    background: #ed3a4a;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #ffffff;
+}

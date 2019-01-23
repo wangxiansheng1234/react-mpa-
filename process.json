@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "rx-pc-pro",
+      "cwd": "./server",
+      "script": "./index.js",
+      "min_uptime": "200s",
+      "instances": "max",
+      "max_restarts": 10,
+      "watch": true,
+      "exec_mode": "cluster",
+      "vizion": false,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

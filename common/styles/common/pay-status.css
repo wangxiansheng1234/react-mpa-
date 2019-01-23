@@ -1,0 +1,60 @@
+.w{
+    width: auto;
+    height: auto;
+}
+.pay-status li {
+    float: left;
+}
+
+.pay-status li div {
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.pay-status li div em {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #dddddd;
+    border-radius: 50%;
+}
+
+.pay-status li div span {
+    width: 100px;
+    display: block;
+    position: absolute;
+    color: #666666;
+    left: 50%;
+    top: 30px;
+    margin-left: -50px;
+}
+
+.pay-status .proce {
+    width: 100px;
+    height: 6px;
+    position: relative;
+    margin: 6px -4px 0;
+    z-index: -1;
+}
+.pay-status .done{
+    background: url(../../images/paystatus/Progressbar_n.png) no-repeat center;
+    background-size: 100%;
+}
+.pay-status .ready{
+    background: url(../../images/paystatus/Progressbar_s.png) no-repeat center;
+    background-size: 100%;
+}
+.pay-status .wait{
+    background: url(../../images/paystatus/Progressbar_d.png) no-repeat center;
+    background-size: 100%;
+}
+.pay-status .done div em {
+    color: #ffffff;
+    background: #ed3a4a;
+}
+
+.pay-status .wait div em {
+    color: #999;
+}

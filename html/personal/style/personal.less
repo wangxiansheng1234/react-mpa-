@@ -1,0 +1,546 @@
+body {
+    background: #f5f5f5;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    background: #ed3a4a;
+    img {
+        margin: 24px 0;
+        float: left;
+    }
+    ul {
+        margin: 48px 107px;
+        float: left;
+        >li {
+            width: auto;
+            font-size: 18px;
+            color: #FFFFFF;
+            float: left;
+            margin-right: 42px;
+            background: url(../images/down_03.png) no-repeat;
+            background-position: 80px 10px;
+            padding-right: 20px;
+        }
+    }
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    .c-title {
+        h2 {
+            width: 100%;
+            height: auto;
+            font-size: 16px;
+            font-weight: 900;
+            color: #333333;
+            margin: 18px 0 14px 0;
+        }
+        ul {
+            width: 100%;
+            height: 50px;
+            border: 1px solid #dddddd;
+            box-sizing: border-box;
+            background: #ffffff;
+            >li {
+                width: 120px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 14px;
+                font-weight: 900;
+                color: #333333;
+                text-align: center;
+                float: left;
+                position: relative;
+                span {
+                    width: 100%;
+                    height: 2px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 2px;
+                }
+            }
+            .li-active {
+                color: #ED3A4A;
+            }
+            .span-active {
+                background: #ED3A4A;
+            }
+        }
+    }
+}
+
+.tab {
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow: hidden;
+    zoom: 1;
+    background: #ffffff;
+    >li {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        zoom: 1;
+        padding: 30px;
+        float: left;
+        display: none;
+        .account {
+            width: auto;
+            height: auto;
+            overflow: hidden;
+            zoom: 1;
+            .card {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                zoom: 1;
+                .card-info {
+                    width: auto;
+                    height: auto;
+                    overflow: hidden;
+                    zoom: 1;
+                    float: left;
+                    background: #f3f3f3;
+                    border: 1px solid #f3f3f3;
+                    border-radius: 10px;
+                    box-sizing: border-box;
+                    padding: 20px 10px;
+                    position: relative;
+                    .card-info-t {
+                        width: auto;
+                        height: 92px;
+                        overflow: hidden;
+                        zoom: 1;
+                        border-bottom: 1px solid #dddddd;
+                        box-sizing: border-box;
+                        img {
+                            width: 72px;
+                            height: 72px;
+                            float: left;
+                        }
+                        .cardNumber {
+                            width: auto;
+                            height: auto;
+                            overflow: hidden;
+                            zoom: 1;
+                            float: left;
+                            margin: 20px 0 0 10px;
+                            em {
+                                width: 100%;
+                                height: auto;
+                                font-size: 12px;
+                                color: #333333;
+                                float: left;
+                                margin-bottom: 3px;
+                            }
+                            img {
+                                width: 32px;
+                                height: 19px;
+                                float: left;
+                            }
+                        }
+                    }
+                    .card-info-d {
+                        width: 100%;
+                        height: auto;
+                        overflow: hidden;
+                        zoom: 1;
+                        margin-top: 14px;
+                        .balance {
+                            width: 100%;
+                            height: auto;
+                            overflow: hidden;
+                            zoom: 1;
+                            span {
+                                width: auto;
+                                height: auto;
+                                font-size: 12px;
+                                color: #999999;
+                                float: left;
+                                display: block;
+                                margin-right: 10px;
+                                margin-top: 6px;
+                            }
+                            p {
+                                width: auto;
+                                height: auto;
+                                font-size: 18px;
+                                color: #333333;
+                                i {
+                                    font-size: 12px;
+                                    color: #333333;
+                                    float: left;
+                                    margin-top: 6px;
+                                }
+                            }
+                        }
+                        .phoneNumber {
+                            width: 100%;
+                            height: auto;
+                            overflow: hidden;
+                            zoom: 1;
+                            margin-top: 6px;
+                            >li {
+                                width: auto;
+                                height: auto;
+                                overflow: hidden;
+                                zoom: 1;
+                                float: left;
+                                font-size: 12px;
+                                color: #333333;
+                                margin-right: 30px;
+                                span {
+                                    width: auto;
+                                    height: auto;
+                                    font-size: 12px;
+                                    color: #999999;
+                                    float: left;
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    .msg {
+                        width: 80px;
+                        height: 40px;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        border-radius: 0 10px 0 120px;
+                        padding: 6px 0;
+                        background: #ed3a4a;
+                        em {
+                            width: 100%;
+                            height: auto;
+                            font-size: 12px;
+                            color: #FFFFFF;
+                            text-indent: 22px;
+                            margin-bottom: 2px;
+                            float: left;
+                        }
+                    }
+                }
+                .password {
+                    width: 100%;
+                    height: auto;
+                    overflow: hidden;
+                    zoom: 1;
+                    padding-top: 30px;
+                    float: left;
+                    .password-item {
+                        width: 100%;
+                        height: 36px;
+                        overflow: hidden;
+                        zoom: 1;
+                        >span {
+                            font-size: 12px;
+                            color: #999999;
+                            float: left;
+                            margin: 10px 0;
+                        }
+                        >em {
+                            font-size: 12px;
+                            color: #333333;
+                            float: left;
+                            margin: 10px 0;
+                        }
+                        >div {
+                            width: 120px;
+                            height: 36px;
+                            line-height: 36px;
+                            font-size: 14px;
+                            color: #333333;
+                            text-align: center;
+                            border: 1px solid #DDDDDD;
+                            box-sizing: border-box;
+                            float: left;
+                            margin-left: 40px;
+                        }
+                    }
+                    div:first-child {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .shop {
+            width: auto;
+            height: auto;
+            overflow: hidden;
+            zoom: 1;
+            >ul {
+                width: auto;
+                height: auto;
+                overflow: hidden;
+                zoom: 1;
+                >li {
+                    width: auto;
+                    height: auto;
+                    overflow: hidden;
+                    zoom: 1;
+                    margin-bottom: 16px;
+                    >span {
+                        width: 90px;
+                        height: auto;
+                        font-size: 12px;
+                        color: #999999;
+                        display: block;
+                        float: left;
+                    }
+                    >em {
+                        width: auto;
+                        max-width: 800px;
+                        overflow: hidden;
+                        height: auto;
+                        text-align: center;
+                        font-size: 12px;
+                        color: #333333;
+                        float: left;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    >img {
+                        width: 132px;
+                        height: 132px;
+                        margin-right: 24px;
+                        float: left;
+                    }
+                }
+                .last-chird {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .address {
+            width: auto;
+            height: auto;
+            overflow: hidden;
+            zoom: 1;
+            >li {
+                width: 256px;
+                height: 110px;
+                float: left;
+                background: url(../images/adress_line_def.png) no-repeat 100% 100%;
+                padding: 0 10px;
+                margin: 0 24px 24px 0;
+                .name {
+                    width: auto;
+                    height: auto;
+                    overflow: hidden;
+                    zoom: 1;
+                    margin-top: 12px;
+                    >em {
+                        width: auto;
+                        height: auto;
+                        font-size: 14px;
+                        color: #333333;
+                        float: left;
+                    }
+                    >i {
+                        width: auto;
+                        height: auto;
+                        font-size: 12px;
+                        color: #333333;
+                        float: left;
+                        margin: 2px 0 0 4px;
+                    }
+                    >img {
+                        width: 30px;
+                        height: 18px;
+                        float: left;
+                        margin-left: 10px;
+                    }
+                }
+                .detailed {
+                    width: auto;
+                    height: 36px;
+                    line-height: 18px;
+                    font-size: 12px;
+                    color: #666666;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    margin-top: 6px;
+                }
+                .operation {
+                    width: auto;
+                    height: auto;
+                    overflow: hidden;
+                    zoom: 1;
+                    margin-top: 6px;
+                    >em {
+                        width: auto;
+                        height: auto;
+                        overflow: hidden;
+                        zoom: 1;
+                        font-size: 12px;
+                        color: #3da8e6;
+                        margin-right: 20px;
+                    }
+                }
+            }
+            .default-active {
+                background: url(../images/adress_line_sel.png) no-repeat 100% 100%;
+            }
+            .upload {
+                width: auto;
+                height: auto;
+                overflow: hidden;
+                zoom: 1;
+                margin: 30px auto;
+                cursor: pointer;
+                >img {
+                    width: auto;
+                    height: auto;
+                    margin: 0 auto;
+                }
+                >b {
+                    width: 100%;
+                    height: auto;
+                    font-size: 14px;
+                    color: #999999;
+                    text-align: center;
+                    display: block;
+                }
+            }
+        }
+    }
+    .no-pad {
+        padding: 30px 30px 6px 30px;
+    }
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.eject {
+    width: 417px;
+    height: 371px;
+    margin: 160px auto;
+    background: #FFFFFF;
+    z-index: 99;
+    border-radius: 5px;
+    position: fixed;
+    top: 12%;
+    left: 35%;
+    display: none;
+    .e-title {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        zoom: 1;
+        position: relative;
+        >h2 {
+            width: 100%;
+            height: 18px;
+            line-height: 18px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #333333;
+            text-align: center;
+            margin: 30px 0 20px 0;
+        }
+        >img {
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    }
+    .edit {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        zoom: 1;
+        margin: 0 30px;
+        >li {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            zoom: 1;
+            margin-bottom: 20px;
+            >span {
+                width: 70px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 14px;
+                color: #666666;
+                margin-right: 14px;
+                display: block;
+                float: left;
+                text-align: right;
+            }
+            >input {
+                width: auto;
+                height: 40px;
+                line-height: 40px;
+                font-size: 14px;
+                color: #333;
+                border: 1px solid #DDDDDD;
+                float: left;
+                text-indent: 10px;
+            }
+            .in-detailed {
+                width: 75%;
+            }
+            >select {
+                width: 75px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 14px;
+                color: #333;
+                border: 1px solid #DDDDDD;
+                float: left;
+                margin-right: 15px;
+                text-align: center;
+                >option {
+                    width: auto;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 14px;
+                    color: #333;
+                    display: block;
+                }
+            }
+            >div {
+                width: 90px;
+                height: 36px;
+                line-height: 36px;
+                text-align: center;
+                color: #333333;
+                font-size: 14px;
+                border: 1px solid #DDDDDD;
+                box-sizing: border-box;
+                float: left;
+                margin-right: 15px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .preservation {
+                background: #ED3A4A;
+                color: #FFFFFF;
+                margin-left: 80px;
+            }
+        }
+    }
+}

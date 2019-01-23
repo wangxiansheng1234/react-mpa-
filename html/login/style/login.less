@@ -1,0 +1,252 @@
+body{
+  background: #ffffff;
+}
+
+.hy-login-header{
+  width: 990px;
+  height: 140px;
+  margin: 0 auto;
+  position: relative;
+  .form-w {
+    width: 990px;
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 35px;
+    .form-logo {
+      width: auto;
+      height: auto;
+      .home-logo {
+        width: 330px;
+        height: 75px;
+        background: #e0e0e0;
+        display: block;
+        float: left;
+      }
+      .logo-title {
+        font-size: 18px;
+        color: #333333;
+        margin-left: 20px;
+        float: left;
+        margin-top: 50px;
+      }
+    }
+  }
+}
+.login-wrap{
+  width: 100%;
+  height: 460px;
+  min-width: 990px;
+  background: #e5213a;
+  .login-content{
+    width: 990px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+    .login-form{
+      position: absolute;
+      width: 340px;
+      height: auto;
+      background: #ffffff;
+      right: 0;
+      top: 32px;
+      .login-tab{
+        width: 170px;
+        height: 49px;
+        border-bottom: 1px solid #f4f4f4;
+        a{
+          display: block;
+          text-align: center;
+          height: 25px;
+          color: #666666;
+          line-height: 25px;
+          box-sizing: border-box;
+          margin-top: 12px;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        a:hover{
+          color: #e5213a;
+        }
+        .active{
+          color: #e5213a;
+        }
+      }
+      .login-tab-l{
+        position: absolute;
+        left: 0;
+        top: 0;
+        a{
+          border-right: 1px solid #f4f4f4;
+        }
+      }
+      .login-tab-r{
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .login-box{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        .qrcode-login{
+          width: auto;
+          height: auto;
+          padding: 0 26px;
+          .qrcode-main{
+            margin-top: 80px;
+            .qrcode-img{
+              width: 168px;
+              height: 168px;
+              margin: 0 auto;
+              background: #e0e0e0;
+              position: relative;
+              .qrcode-error-mask{
+                width: 168px;
+                height: 168px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(51,51,51,.6);
+                text-align: center;
+                span{
+                  margin-top: 58px;
+                  color: #ffffff;
+                  font-size: 14px;
+                  display: block;
+                }
+                a{
+                  display: block;
+                  font-size: 14px;
+                  color: #ffffff;
+                  width: 80px;
+                  height: 26px;
+                  background: #e5213a;
+                  margin: 15px auto 0;
+                  line-height: 26px;
+                }
+              }
+            }
+            .qrcode-panel{
+              text-align: center;
+              margin-top: 15px;
+              font-size: 12px;
+              color: #666666;
+              a{
+                color: #e5213a;
+                padding-right: 8px;
+              }
+            }
+          }
+        }
+        .login-pas{
+          width: auto;
+          height: auto;
+          padding: 0 26px;
+          .msg-wrap{
+            height: auto;
+            top: 8px;
+            position: relative;
+            min-height: 20px;
+            .msg-error{
+              line-height: 15px;
+              padding: 3px 10px 3px 40px;
+              background: #ffebeb;
+              color: #e4393c;
+              border: 1px solid #faccc6;
+            }
+          }
+          .item{
+            width: 288px;
+            height: 40px;
+            box-sizing: border-box;
+            border: 1px solid #bdbdbd;
+            position: relative;
+            .login-label{
+              width: 38px;
+              height: 38px;
+              background: #666666;
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            input{
+              width: 236px;
+              height: 38px;
+              padding: 0 0 0 50px;
+              font-size: 14px;
+            }
+            span{
+              position: absolute;
+              width: 20px;
+              height: 20px;
+              background: #000000;
+              z-index: 20;
+              right: 6px;
+              cursor: pointer;
+              top: 9px;
+            }
+          }
+          .item-user{
+            margin-top: 15px;
+          }
+          .item-password,.item-identify{
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+          .item-identify{
+
+          }
+          .item-fore{
+            position: relative;
+            margin-bottom: 15px;
+            font-size: 12px;
+            position: relative;
+            .forget-password{
+              position: absolute;
+              right: 0;
+            }
+            a:hover{
+              color: #e5213a;
+            }
+          }
+          .login-btn{
+            width: 288px;
+            height: 40px;
+            display: block;
+            background: #e5213a;
+            color: #ffffff;
+            font-size: 16px;
+            text-align: center;
+            line-height: 40px;
+          }
+        }
+        .register-form{
+          margin-bottom: 20px;
+          margin-top: 20px;
+          text-align: center;
+          a{
+            position: relative;
+            padding-right: 10px;
+          }
+          a:after{
+            content: "";
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            top: 32%;
+            width: 6px;
+            height: 6px;
+            border-style: solid;
+            border-color: #7d7d7d;
+            border-width: 1px 0 0 1px;
+            -webkit-transform: rotate(135deg);
+          }
+          a:hover{
+            color: #e5213a;
+          }
+        }
+      }
+    }
+  }
+}

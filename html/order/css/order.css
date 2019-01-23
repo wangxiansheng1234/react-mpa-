@@ -1,0 +1,545 @@
+body {
+  background: #f5f5f5;
+}
+.order {
+  width: 990px;
+  height: auto;
+  margin: 55px auto 40px;
+}
+.order .order-status {
+  position: relative;
+}
+.order .order-status .order-logo {
+  width: 320px;
+  height: 75px;
+  background: #eeeeee;
+}
+.order .order-status ul {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.order .order-status ul li {
+  float: left;
+}
+.order .order-status ul li div {
+  width: auto;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+.order .order-status ul li div em {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: #dddddd;
+  border-radius: 50%;
+}
+.order .order-status ul li div span {
+  width: 100px;
+  display: block;
+  position: absolute;
+  color: #666666;
+  left: 50%;
+  top: 30px;
+  margin-left: -50px;
+}
+.order .order-status ul .proce {
+  width: 100px;
+  height: 6px;
+  background: #ed3a4a;
+  position: relative;
+  margin: 6px -4px 0;
+  z-index: -1;
+}
+.order .order-status ul .done div em {
+  color: #ffffff;
+  background: #ed3a4a;
+}
+.order .order-status ul .wait div em {
+  color: #666666;
+}
+.order .item-title {
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+  line-height: 20px;
+}
+.order .address {
+  width: 100%;
+  height: auto;
+  margin-top: 36px;
+}
+.order .address ul {
+  margin-top: 16px;
+}
+.order .address ul li {
+  float: left;
+  width: 276px;
+  height: 110px;
+  background: url(../images/adress_line_def.png) no-repeat center;
+  background-size: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-right: 24px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.order .address ul li p {
+  color: #333333;
+  font-size: 14px;
+}
+.order .address ul li .address-title {
+  height: 32px;
+  overflow: hidden;
+  line-height: 16px;
+  margin-top: 4px;
+  color: #666666;
+}
+.order .address ul li .address-action {
+  margin-top: 4px;
+}
+.order .address ul li .address-action a {
+  color: #666666;
+  margin-right: 16px;
+}
+.order .address ul li .address-action a:hover {
+  color: #3da8e6;
+}
+.order .address ul li.active {
+  background: url(../images/adress_line_sel.png) no-repeat center;
+  background-size: 100%;
+}
+.order .address ul li.active .address-action a {
+  color: #3da8e6;
+}
+.order .address ul li.active:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  width: 32px;
+  height: 32px;
+  background: url(../images/icon_Details_tick.png) no-repeat center;
+  background-size: 100%;
+  z-index: 22;
+}
+.order .address ul .add-address {
+  float: left;
+  width: 276px;
+  height: 110px;
+  background: url(../images/adress_line_def.png) no-repeat center;
+  background-size: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  color: #999999;
+  font-size: 14px;
+}
+.order .address ul .add-address i {
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin: 20px auto 5px;
+  background: url(../images/add_address.png) no-repeat center;
+  background-size: 100%;
+}
+.order .pay-style {
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+}
+.order .pay-style ul {
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+}
+.order .pay-style ul li {
+  width: 222px;
+  height: 52px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  background: #ffffff;
+  float: left;
+  margin-right: 12px;
+}
+.order .pay-style ul li div {
+  width: auto;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+.order .pay-style ul li div i {
+  width: 34px;
+  height: 34px;
+  display: block;
+  background: #3da8e6;
+  position: absolute;
+  left: 36px;
+  top: 8px;
+}
+.order .pay-style ul li div span {
+  line-height: 50px;
+  font-size: 16px;
+  padding-left: 16px;
+  color: #333333;
+}
+.order .pay-style ul li.active div span {
+  color: #3da8e6;
+}
+.order .order-goods-msg {
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+}
+.order .order-goods-msg .order-list {
+  width: auto;
+  height: auto;
+  margin-top: 16px;
+  border-right: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.order .order-goods-msg .order-list .order-list-item {
+  border-top: 1px solid #dddddd;
+}
+.order .order-goods-msg .order-list .order-list-item .order-item-thead {
+  background: #eeeeee;
+  width: 100%;
+  height: 34px;
+  line-height: 34px;
+}
+.order .order-goods-msg .order-list .order-list-item .column {
+  float: left;
+}
+.order .order-goods-msg .order-list .order-list-item .fc-mo {
+  width: 284px;
+  padding-left: 20px;
+}
+.order .order-goods-msg .order-list .order-list-item .fc-co {
+  width: 272px;
+  text-align: center;
+}
+.order .order-goods-msg .order-list .order-list-item .fc-po {
+  width: 154px;
+  text-align: center;
+}
+.order .order-goods-msg .order-list .order-list-item .fc-no {
+  width: 112px;
+  text-align: center;
+}
+.order .order-goods-msg .order-list .order-list-item .fc-to {
+  width: 142px;
+  text-align: center;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods {
+  width: auto;
+  border-bottom: 1px solid #dddddd;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-server,
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-price,
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-num,
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-total-price {
+  height: 138px;
+  padding-top: 18px;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-server,
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-price,
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-num,
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-total-price {
+  border-left: 1px solid #dddddd;
+  box-sizing: border-box;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-msg {
+  position: relative;
+  height: 102px;
+  padding-top: 18px;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-msg i {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #dddddd;
+  display: block;
+  position: absolute;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-msg .goods-title {
+  margin-left: 90px;
+  margin-right: 10px;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-msg .goods-title p {
+  height: 34px;
+  line-height: 16px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-msg .goods-title em {
+  color: #999999;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.order .order-goods-msg .order-list .order-list-item .order-goods-list .order-goods .goods-msg .goods-title em b {
+  margin-left: 5px;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg {
+  width: 100%;
+  background: #ffffff;
+  height: 80px;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg .lev-msg {
+  width: 731px;
+  border-right: 1px solid #dddddd;
+  box-sizing: border-box;
+  height: 80px;
+  padding-left: 20px;
+  padding-top: 12px;
+  position: relative;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg .lev-msg span {
+  width: 80px;
+  position: absolute;
+  display: block;
+  color: #666666;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg .lev-msg span i {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg .lev-msg .lev-msg-title {
+  margin-left: 80px;
+  width: 600px;
+  height: 50px;
+  display: block;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg .lev-msg .lev-msg-title textarea {
+  width: 600px;
+  height: 50px;
+  border: none;
+  padding: 0;
+  outline: none;
+  resize: none;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg .order-total-price {
+  width: 237px;
+  height: 80px;
+  padding: 0 10px;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg .order-total-price p {
+  margin-top: 14px;
+  color: #333333;
+  text-align: right;
+}
+.order .order-goods-msg .order-list .order-list-item .order-other-msg .order-total-price p em {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.order .invoice {
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+}
+.order .invoice .invoice-msg {
+  width: 100%;
+  height: 42px;
+  margin-top: 16px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  position: relative;
+  background: #ffffff;
+}
+.order .invoice .invoice-msg i {
+  width: 60px;
+  display: block;
+  position: absolute;
+  height: 40px;
+  line-height: 40px;
+  left: 10px ;
+  top: 0;
+  color: #333333;
+}
+.order .invoice .invoice-msg div {
+  width: 908px;
+  height: 40px;
+  margin-left: 80px;
+}
+.order .invoice .invoice-msg div input {
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+.order .coupons {
+  margin-top: 24px;
+}
+.order .coupons .coupons-list {
+  margin-top: 16px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+.order .coupons .coupons-list p {
+  background: #eeeeee;
+  padding: 10px 0 10px 30px;
+  color: #333333;
+  font-weight: bold;
+  background: url(../images/sign-in_icon_prompt.png) no-repeat;
+  background-color: #eeeeee;
+  background-size: 14px;
+  background-position: 10px 12px;
+}
+.order .coupons .coupons-list .coupons-list-wrap {
+  width: auto;
+  height: 200px;
+  margin: 30px;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper {
+  width: auto;
+  height: auto;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide {
+  width: auto;
+  padding: 0 70px;
+  box-sizing: border-box;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide .coupon-item {
+  width: 241px;
+  height: 90px;
+  float: left;
+  margin: 0 8px 10px;
+  position: relative;
+  padding: 8px 15px;
+  box-sizing: border-box;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide .coupon-item .coupon-item-title {
+  color: #ffffff;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide .coupon-item .coupon-item-title em {
+  display: block;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide .coupon-item .coupon-item-title span {
+  display: block;
+  margin-top: 4px;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide .coupon-item .coupon-item-title span b {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 3px;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide .coupon-item .coupon-item-time {
+  position: absolute;
+  bottom: 4px;
+  color: #f5f5f5;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide .disabled {
+  background-image: url(../images/bg_ticket_dis.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.order .coupons .coupons-list .coupons-list-wrap .swiper-wrapper .swiper-slide .useof {
+  background-image: url(../images/bg_ticket_nor.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.order .order-price {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  background: #ffffff;
+  border-right: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.order .order-price ul {
+  width: 320px;
+  height: auto;
+  float: right;
+}
+.order .order-price ul li {
+  width: 100%;
+  height: auto;
+  margin-bottom: 14px;
+  float: left;
+}
+.order .order-price ul li span {
+  width: 220px;
+  text-align: right;
+  float: left;
+  display: block;
+  color: #999999;
+}
+.order .order-price ul li span b {
+  color: #ed3a4a;
+  margin-right: 4px;
+}
+.order .order-price ul li em {
+  width: 100px;
+  height: auto;
+  text-align: right;
+  float: right;
+  display: block;
+  color: #ed3a4a;
+  font-weight: bold;
+}
+.order .order-msg {
+  width: auto;
+  height: auto;
+  margin-top: 24px;
+  padding: 0 20px;
+}
+.order .order-msg ul {
+  float: right;
+}
+.order .order-msg ul li {
+  width: 100%;
+  float: left;
+  margin-bottom: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: right;
+}
+.order .order-msg ul li span {
+  color: #999999;
+  margin-right: 10px;
+}
+.order .order-msg ul li em {
+  color: #ed3a4a;
+  font-weight: bold;
+  font-size: 18px;
+}
+.order .order-msg ul li b {
+  font-size: 14px;
+  color: #333333;
+}
+.order .order-msg .order-submit {
+  float: left;
+  width: 100%;
+  height: auto;
+  color: #ed3a4a;
+  text-align: right;
+}
+.order .order-msg .order-submit i {
+  padding: 5px;
+  background: #ed3a4a;
+}
+.order .order-msg .order-submit a {
+  display: inline-block;
+  width: 180px;
+  height: 58px;
+  background: #ed3a4a;
+  color: #ffffff;
+  text-align: center;
+  line-height: 58px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 10px;
+}

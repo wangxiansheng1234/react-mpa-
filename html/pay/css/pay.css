@@ -1,0 +1,169 @@
+body {
+  background: #f5f5f5;
+}
+.pay-content {
+  width: 990px;
+  height: auto;
+  margin: 0 auto;
+}
+.pay-content .pay-msg {
+  width: 990px;
+  height: auto;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  padding: 36px 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+.pay-content .pay-msg .pay-order {
+  width: 380px;
+  height: auto;
+  padding-left: 80px;
+  background-image: url(../image/icon_order_s.png);
+  background-position: 0 center;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+.pay-content .pay-msg .pay-order p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.pay-content .pay-msg .pay-order span {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  margin-top: 16px;
+}
+.pay-content .pay-msg .pay-order i {
+  color: #999999;
+  margin-top: 16px;
+  display: block;
+}
+.pay-content .pay-msg .pay-price {
+  position: absolute;
+  right: 30px;
+  top: 70px;
+  font-size: 14px;
+  color: #333333;
+}
+.pay-content .pay-msg .pay-price em {
+  margin-left: 10px;
+  color: #ed3a4a;
+  font-size: 12px;
+  font-weight: bold;
+}
+.pay-content .pay-msg .pay-price em i {
+  font-size: 18px;
+}
+.pay-content .pay-style h3 {
+  margin: 24px 0 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pay-content .pay-style ul {
+  width: 990px;
+  height: 96px;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+.pay-content .pay-style ul li {
+  float: left;
+  border: 1px solid #dddddd;
+  width: 222px;
+  height: 52px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.pay-content .pay-style ul li div {
+  position: relative;
+  width: auto;
+  padding-left: 20px;
+}
+.pay-content .pay-style ul li div i {
+  width: 34px;
+  height: 34px;
+  display: block;
+  background: #3da8e6;
+  position: absolute;
+  left: 36px;
+  top: 8px;
+}
+.pay-content .pay-style ul li.active div span {
+  color: #ed3a4a;
+}
+.pay-content .pay-go {
+  width: auto;
+  height: auto;
+  margin-top: 30px;
+  position: relative;
+}
+.pay-content .pay-go a {
+  display: block;
+  width: 180px;
+  height: 58px;
+  background: #ed3a4a;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 58px;
+  border-radius: 4px;
+  position: absolute;
+  right: 0;
+}
+.pay-content .pay-wechat {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+.pay-content .pay-wechat h3 {
+  margin: 24px 0 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pay-content .pay-wechat .pay-msg-wechat {
+  width: 100%;
+  height: auto;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  padding: 32px 30px;
+  background: #ffffff;
+  position: relative;
+}
+.pay-content .pay-wechat .pay-msg-wechat .wechat-msg {
+  width: auto;
+  height: auto;
+  font-size: 14px;
+}
+.pay-content .pay-wechat .pay-msg-wechat .wechat-msg p {
+  font-size: 16px;
+  color: #333333;
+  padding: 10px 40px;
+}
+.pay-content .pay-wechat .pay-msg-wechat .wechat-msg .wechat-msg {
+  margin-top: 16px;
+}
+.pay-content .pay-wechat .pay-msg-wechat .wechat-msg .qb {
+  width: 276px;
+  height: 276px;
+  background: #333333;
+  margin-top: 20px;
+}
+.pay-content .pay-wechat .pay-msg-wechat .wechat-msg span {
+  margin-top: 20px;
+  display: block;
+  text-align: left;
+  padding-left: 40px;
+}
+.pay-content .pay-wechat .pay-msg-wechat .wechat-tip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 60px;
+}

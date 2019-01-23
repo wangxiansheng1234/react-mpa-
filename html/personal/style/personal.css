@@ -1,0 +1,538 @@
+body {
+  background: #f5f5f5;
+}
+.nav {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  background: #ed3a4a;
+}
+.nav img {
+  margin: 24px 0;
+  float: left;
+}
+.nav ul {
+  margin: 48px 107px;
+  float: left;
+}
+.nav ul > li {
+  width: auto;
+  font-size: 18px;
+  color: #FFFFFF;
+  float: left;
+  margin-right: 42px;
+  background: url(../images/down_03.png) no-repeat;
+  background-position: 80px 10px;
+  padding-right: 20px;
+}
+.content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.content .c-title h2 {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  font-weight: 900;
+  color: #333333;
+  margin: 18px 0 14px 0;
+}
+.content .c-title ul {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.content .c-title ul > li {
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 900;
+  color: #333333;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+.content .c-title ul > li span {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+}
+.content .c-title ul .li-active {
+  color: #ED3A4A;
+}
+.content .c-title ul .span-active {
+  background: #ED3A4A;
+}
+.tab {
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  margin-top: 20px;
+  overflow: hidden;
+  zoom: 1;
+  background: #ffffff;
+}
+.tab > li {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  padding: 30px;
+  float: left;
+  display: none;
+}
+.tab > li .account {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.tab > li .account .card {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  zoom: 1;
+}
+.tab > li .account .card .card-info {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  float: left;
+  background: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  position: relative;
+}
+.tab > li .account .card .card-info .card-info-t {
+  width: auto;
+  height: 92px;
+  overflow: hidden;
+  zoom: 1;
+  border-bottom: 1px solid #dddddd;
+  box-sizing: border-box;
+}
+.tab > li .account .card .card-info .card-info-t img {
+  width: 72px;
+  height: 72px;
+  float: left;
+}
+.tab > li .account .card .card-info .card-info-t .cardNumber {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  float: left;
+  margin: 20px 0 0 10px;
+}
+.tab > li .account .card .card-info .card-info-t .cardNumber em {
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  color: #333333;
+  float: left;
+  margin-bottom: 3px;
+}
+.tab > li .account .card .card-info .card-info-t .cardNumber img {
+  width: 32px;
+  height: 19px;
+  float: left;
+}
+.tab > li .account .card .card-info .card-info-d {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 14px;
+}
+.tab > li .account .card .card-info .card-info-d .balance {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.tab > li .account .card .card-info .card-info-d .balance span {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: #999999;
+  float: left;
+  display: block;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+.tab > li .account .card .card-info .card-info-d .balance p {
+  width: auto;
+  height: auto;
+  font-size: 18px;
+  color: #333333;
+}
+.tab > li .account .card .card-info .card-info-d .balance p i {
+  font-size: 12px;
+  color: #333333;
+  float: left;
+  margin-top: 6px;
+}
+.tab > li .account .card .card-info .card-info-d .phoneNumber {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 6px;
+}
+.tab > li .account .card .card-info .card-info-d .phoneNumber > li {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  float: left;
+  font-size: 12px;
+  color: #333333;
+  margin-right: 30px;
+}
+.tab > li .account .card .card-info .card-info-d .phoneNumber > li span {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: #999999;
+  float: left;
+  display: block;
+}
+.tab > li .account .card .card-info .msg {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 10px 0 120px;
+  padding: 6px 0;
+  background: #ed3a4a;
+}
+.tab > li .account .card .card-info .msg em {
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-indent: 22px;
+  margin-bottom: 2px;
+  float: left;
+}
+.tab > li .account .card .password {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  padding-top: 30px;
+  float: left;
+}
+.tab > li .account .card .password .password-item {
+  width: 100%;
+  height: 36px;
+  overflow: hidden;
+  zoom: 1;
+}
+.tab > li .account .card .password .password-item > span {
+  font-size: 12px;
+  color: #999999;
+  float: left;
+  margin: 10px 0;
+}
+.tab > li .account .card .password .password-item > em {
+  font-size: 12px;
+  color: #333333;
+  float: left;
+  margin: 10px 0;
+}
+.tab > li .account .card .password .password-item > div {
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #333333;
+  text-align: center;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 40px;
+}
+.tab > li .account .card .password div:first-child {
+  margin-bottom: 10px;
+}
+.tab > li .shop {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.tab > li .shop > ul {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.tab > li .shop > ul > li {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  margin-bottom: 16px;
+}
+.tab > li .shop > ul > li > span {
+  width: 90px;
+  height: auto;
+  font-size: 12px;
+  color: #999999;
+  display: block;
+  float: left;
+}
+.tab > li .shop > ul > li > em {
+  width: auto;
+  max-width: 800px;
+  height: auto;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tab > li .shop > ul > li > img {
+  width: 132px;
+  height: 132px;
+  margin-right: 24px;
+  float: left;
+}
+.tab > li .shop > ul .last-chird {
+  margin-bottom: 0;
+}
+.tab > li .address {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.tab > li .address > li {
+  width: 256px;
+  height: 110px;
+  float: left;
+  background: url(../images/adress_line_def.png) no-repeat 100% 100%;
+  padding: 0 10px;
+  margin: 0 24px 24px 0;
+}
+.tab > li .address > li .name {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 12px;
+}
+.tab > li .address > li .name > em {
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  color: #333333;
+  float: left;
+}
+.tab > li .address > li .name > i {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: #333333;
+  float: left;
+  margin: 2px 0 0 4px;
+}
+.tab > li .address > li .name > img {
+  width: 30px;
+  height: 18px;
+  float: left;
+  margin-left: 10px;
+}
+.tab > li .address > li .detailed {
+  width: auto;
+  height: 36px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #666666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-top: 6px;
+}
+.tab > li .address > li .operation {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 6px;
+}
+.tab > li .address > li .operation > em {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  font-size: 12px;
+  color: #3da8e6;
+  margin-right: 20px;
+}
+.tab > li .address .default-active {
+  background: url(../images/adress_line_sel.png) no-repeat 100% 100%;
+}
+.tab > li .address .upload {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  margin: 30px auto;
+  cursor: pointer;
+}
+.tab > li .address .upload > img {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+.tab > li .address .upload > b {
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  display: block;
+}
+.tab .no-pad {
+  padding: 30px 30px 6px 30px;
+}
+.mask {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.eject {
+  width: 417px;
+  height: 371px;
+  margin: 160px auto;
+  background: #FFFFFF;
+  z-index: 99;
+  border-radius: 5px;
+  position: fixed;
+  top: 12%;
+  left: 35%;
+  display: none;
+}
+.eject .e-title {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+}
+.eject .e-title > h2 {
+  width: 100%;
+  height: 18px;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+.eject .e-title > img {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.eject .edit {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  margin: 0 30px;
+}
+.eject .edit > li {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  margin-bottom: 20px;
+}
+.eject .edit > li > span {
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 14px;
+  display: block;
+  float: left;
+  text-align: right;
+}
+.eject .edit > li > input {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #DDDDDD;
+  float: left;
+  text-indent: 10px;
+}
+.eject .edit > li .in-detailed {
+  width: 75%;
+}
+.eject .edit > li > select {
+  width: 75px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #DDDDDD;
+  float: left;
+  margin-right: 15px;
+  text-align: center;
+}
+.eject .edit > li > select > option {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  display: block;
+}
+.eject .edit > li > div {
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+  font-size: 14px;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.eject .edit > li .preservation {
+  background: #ED3A4A;
+  color: #FFFFFF;
+  margin-left: 80px;
+}

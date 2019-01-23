@@ -1,0 +1,184 @@
+.eject {
+    width: 440px;
+    height: 550px;
+    background: #FFFFFF;
+    z-index: 990;
+    border-radius: 5px;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+}
+
+.eject .e-title {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+
+.eject .e-title > h2 {
+    width: 100%;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.eject .e-title > img {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.eject .edit {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0 30px;
+}
+
+.eject .edit > li {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 20px;
+}
+
+.eject .edit > li > span {
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #666666;
+    margin-right: 14px;
+    display: block;
+    float: left;
+    text-align: right;
+}
+
+.eject .edit > li > span > i {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    font-size: 16px;
+    padding: 0 2px;
+    color: #ED3A4A;
+}
+
+.eject .edit > li > input {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #DDDDDD;
+    float: left;
+    text-indent: 10px;
+}
+
+.eject .edit > li .in-detailed {
+    width: 72%;
+}
+
+.eject .edit > li .idNumber {
+    width: 72%;
+}
+
+.eject .edit > li > select {
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.eject .edit > li > select > option {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    display: block;
+}
+
+.eject .edit > li > a {
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.eject .edit > li > .picBox > p {
+    width: 108px;
+    height: 108px;
+    float: left;
+
+}
+
+.eject .edit > li > .picBox > p.positive {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.eject .edit > li > .picBox > .positive .upload {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    top: 0;
+    left: 0;
+    z-index: 33;
+    opacity: 0;
+
+}
+
+.eject .edit > li > .picBox > .negative {
+    margin-left: 24px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.eject .edit > li > .picBox .negative .upload {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    top: 0;
+    left: 0;
+    z-index: 33;
+    opacity: 0;
+
+}
+
+.eject .edit > li > .picBox > p > img {
+    width: 108px;
+    height: 108px;
+
+}
+
+.eject .edit > li .preservation {
+    background: #ED3A4A;
+    color: #FFFFFF;
+    margin-left: 80px;
+}

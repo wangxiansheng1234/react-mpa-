@@ -1,0 +1,175 @@
+body{
+  background: #f5f5f5;
+}
+.pay-content{
+  width: 990px;
+  height: auto;
+  margin: 0 auto;
+  .pay-msg{
+    width: 990px;
+    height: auto;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    padding: 36px 30px;
+    box-sizing: border-box;
+    position: relative;
+    .pay-order{
+      width: 380px;
+      height: auto;
+      padding-left: 80px;
+      background-image: url(../image/icon_order_s.png);
+      background-position: 0 center;
+      background-size: 50px;
+      background-repeat: no-repeat;
+      p{
+        font-size: 18px;
+        font-weight:bold;
+        color: #333333;
+      }
+      span{
+        display: block;
+        font-size: 14px;
+        color: #333333;
+        margin-top: 16px;
+      }
+      i{
+        color: #999999;
+        margin-top: 16px;
+        display: block;
+      }
+    }
+    .pay-price{
+      position: absolute;
+      right: 30px;
+      top: 70px;
+      font-size: 14px;
+      color: #333333;
+      em{
+        margin-left: 10px;
+        color: #ed3a4a;
+        font-size: 12px;
+        font-weight: bold;
+        i{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .pay-style{
+    h3{
+      margin: 24px 0 16px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    ul{
+      width: 990px;
+      height: 96px;
+      border: 1px solid #dddddd;
+      background: #ffffff;
+      box-sizing: border-box;
+      li{
+        float: left;
+        border: 1px solid #dddddd;
+        width: 222px;
+        height: 52px;
+        box-sizing: border-box;
+        margin-left: 20px;
+        line-height: 50px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+        div{
+          position: relative;
+          width: auto;
+          padding-left: 20px;
+          i{
+            width: 34px;
+            height: 34px;
+            display: block;
+            background: #3da8e6;
+            position: absolute;
+            left: 36px;
+            top: 8px;
+          }
+        }
+      }
+      li.active{
+        div{
+          span{
+            color: #ed3a4a;
+          }
+        }
+      }
+    }
+  }
+  .pay-go{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    position: relative;
+    a{
+      display: block;
+      width: 180px;
+      height: 58px;
+      background: #ed3a4a;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 58px;
+      border-radius: 4px;
+      position: absolute;
+      right: 0;
+    }
+  }
+  .pay-wechat{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    h3{
+      margin: 24px 0 16px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .pay-msg-wechat{
+      width: 100%;
+      height: auto;
+      border: 1px solid #dddddd;
+      box-sizing: border-box;
+      padding: 32px 30px;
+      background: #ffffff;
+      position: relative;
+      .wechat-msg{
+        width: auto;
+        height: auto;
+        font-size: 14px;
+        p{
+          font-size: 16px;
+          color: #333333;
+          padding: 10px 40px;
+        }
+        .wechat-msg{
+          margin-top: 16px;
+        }
+        .qb{
+          width: 276px;
+          height: 276px;
+          background: #333333;
+          margin-top: 20px;
+        }
+        span{
+          margin-top: 20px;
+          display: block;
+          text-align: left;
+          padding-left: 40px;
+        }
+      }
+      .wechat-tip{
+        position: absolute;
+        width: auto;
+        height: auto;
+        top:60px;
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.hy-tip {
+    width: 40px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 991;
+}
+.hy-tip ul {
+    width: 40px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+.hy-tip ul li {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 6px;
+    position: relative;
+    cursor: pointer;
+}
+.hy-tip ul li span {
+    height: 40px;
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    padding-left: 10px;
+    background: #ed3a4a;
+    line-height: 40px;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-weight: bold;
+    left: 0;
+    z-index: -1;
+    transition: left .3s linear;
+}
+.hy-tip ul .person {
+    background: url(../../images/tool/home_icon_Personal-center.png) no-repeat center #999999;
+    background-size: 24px;
+}
+.hy-tip ul .person span {
+    width: 100px;
+    background: #999999;
+}
+.hy-tip ul .person:hover span {
+    background: #ed3a4a;
+    left: -100px;
+}
+.hy-tip ul .cart {
+    background: url(../../images/tool/home_icon_shopping-car.png) no-repeat center #999999;
+    background-size: 24px;
+}
+.hy-tip ul .cart span {
+    background: #999999;
+    width: 80px;
+}
+.hy-tip ul .cart:hover span {
+    background: #ed3a4a;
+    left: -80px;
+}
+.hy-tip ul .tel {
+    background: url(../../images/tool/home_icon_customer-service.png) no-repeat center #999999;
+    background-size: 24px;
+}
+.hy-tip ul .tel span {
+    background: #999999;
+    width: 140px;
+}
+.hy-tip ul .tel:hover span {
+    background: #ed3a4a;
+    left: -140px;
+}
+.hy-tip ul .saoma {
+    background: url(../../images/tool/home_icon_QR.png) no-repeat center #999999;
+    background-size: 24px;
+}
+.hy-tip ul .saoma div {
+    display: none;
+    width: 96px;
+    height: 128px;
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    background: #ed3a4a;
+    top: -80px;
+    left: -110px;
+    color: #ffffff;
+    padding-top: 10px;
+    line-height: 18px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+.hy-tip ul .saoma div i {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #999999;
+    margin: 5px auto 0;
+}
+.hy-tip ul .saoma:hover div {
+    display: block;
+    opacity: 1;
+}
+.hy-tip ul .top {
+    background: url(../../images/tool/home_icon_back.png) no-repeat center #999999;
+    background-size: 24px;
+}
+.hy-tip ul .person:hover,
+.hy-tip ul .cart:hover,
+.hy-tip ul .tel:hover,
+.hy-tip ul .saoma:hover {
+    background-color: #ed3a4a;
+}

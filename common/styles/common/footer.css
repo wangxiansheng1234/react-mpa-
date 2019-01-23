@@ -1,0 +1,56 @@
+.hy-footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.hy-footer .mod-help-list {
+    width: 990px;
+    height: auto;
+    margin: 20px  auto;
+}
+.hy-footer .mod-help-list .mod-help-nav {
+    float: left;
+    margin-left: 20px;
+    margin-right: 110px;
+}
+.hy-footer .mod-help-list .mod-help-nav h5 {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+.hy-footer .mod-help-list .mod-help-nav ul {
+    margin-top: 13px;
+}
+.hy-footer .mod-help-list .mod-help-nav ul li {
+    margin-top: 10px;
+}
+.hy-footer .mod-help-list .mod-help-nav ul li a {
+    color: #999999;
+    line-height: 20px;
+}
+.hy-footer .mod-help-list .mod-help-nav ul li a:hover {
+    color: #ed3a4a;
+    text-decoration: underline;
+}
+.hy-footer .mod-help-list .mod-help-cover {
+    float: left;
+}
+.hy-footer .mod-help-list .mod-help-cover h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+}
+.hy-footer .mod-help-list .mod-help-cover span {
+    display: block;
+    margin-top: 15px;
+    color: #999999;
+    text-align: center;
+}
+.hy-footer .mod-help-list .mod-help-cover span i {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: 0 auto 12px;
+    background: url(../../images/erweima.png) no-repeat center;
+    background-size: 75px;
+}

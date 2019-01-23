@@ -1,0 +1,83 @@
+.hy-header {
+    width: 100%;
+    height: 36px;
+    background: #f2f2f2;
+}
+.hy-header .hy-shortcut {
+    width: 990px;
+    height: 36px;
+    position: relative;
+    margin: 0 auto;
+}
+.hy-header .hy-shortcut .hy-w {
+    font-size: 12px;
+    color: #444444;
+    line-height: 36px;
+}
+.hy-header .hy-shortcut .hy-w .fl {
+    float: left;
+}
+.hy-header .hy-shortcut .hy-w .fl li {
+    float: left;
+    margin-right: 34px;
+}
+.hy-header .hy-shortcut .hy-w .fl li a:hover {
+    color: #ed3a4a;
+}
+.hy-header .hy-shortcut .hy-w .fr {
+    float: right;
+}
+.hy-header .hy-shortcut .hy-w .fr li {
+    float: left;
+    margin-left: 34px;
+}
+.hy-header .hy-shortcut .hy-w .fr li.active{
+    color: #ed3a4a;
+}
+.hy-header .hy-shortcut .hy-w .fr li a:hover {
+    color: #ed3a4a;
+}
+.hy-header .hy-shortcut .hy-w .fr .tel-phone {
+    position: relative;
+}
+.hy-header .hy-shortcut .hy-w .fr .tel:hover .tel-phone .qb{
+    display: block;
+}
+.hy-header .hy-shortcut .hy-w .fr .tel .tel-phone .qb {
+    position: absolute;
+    width: 180px;
+    height: 108px;
+    background: url(../../images/gb.png) no-repeat center;
+    background-size: 100%;
+    right: 0;
+    top: 18px;
+    z-index: 888;
+    display: none;
+}
+.hy-header .hy-shortcut .hy-w .fr .tel .tel-phone .qb i {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #dddddd;
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+.hy-header .hy-shortcut .hy-w .fr .tel .tel-phone .qb em {
+    font-size: 12px;
+    display: block;
+    margin-left: 100px;
+    margin-top: 24px;
+    font-weight: bold;
+}
+.hy-header .hy-shortcut .hy-w .fr .tel .tel-phone .qb em span {
+    color: #333333;
+    display: block;
+    line-height: 20px;
+}
+.hy-header .hy-shortcut .hy-w .fr .tel .tel-phone .qb em b {
+    margin-top: 10px;
+    color: #ed3a4a;
+    display: block;
+    line-height: 16px;
+}

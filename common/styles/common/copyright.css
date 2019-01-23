@@ -1,0 +1,25 @@
+.hy-copyright {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    background: #ffffff;
+}
+.hy-copyright .mod-copyright-inner {
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.hy-copyright .mod-copyright-inner .mod-inner-content {
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+    text-align: center;
+}
+.hy-copyright .mod-copyright-inner .mod-inner-content div span {
+    margin-right: 10px;
+}

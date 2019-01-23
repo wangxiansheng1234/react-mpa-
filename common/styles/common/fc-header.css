@@ -1,0 +1,42 @@
+.hy-search {
+    width: 990px;
+    height: 112px;
+    margin: 0 auto;
+    position: relative;
+}
+.hy-search .hy-search-logo {
+    width: 320px;
+    height: 66px;
+    position: absolute;
+    top: 24px;
+    background: url(../../images/home_image_logo.png) no-repeat center;
+    background-size: 100%;
+    cursor: pointer;
+}
+.hy-search .hy-search-cart {
+    width: 458px;
+    height: 36px;
+    border: 2px solid #e5213a;
+    position: absolute;
+    right: 26px;
+    top: 36px;
+}
+.hy-search .hy-search-cart .hy-search-form {
+    width: 356px;
+    height: 36px;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.hy-search .hy-search-cart a {
+    width: 102px;
+    height: 36px;
+    background: #e5213a;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #ffffff;
+}

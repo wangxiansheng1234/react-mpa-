@@ -1,0 +1,37 @@
+.nav {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    background: #ed3a4a;
+}
+
+.nav img {
+    margin: 24px 0;
+    float: left;
+    cursor: pointer;
+}
+
+.nav ul {
+    margin: 48px 107px;
+    float: left;
+}
+
+.nav ul > li {
+    width: auto;
+    font-size: 18px;
+    color: #FFFFFF;
+    float: left;
+    margin-right: 42px;
+
+}
+
+.highLight {
+    font-weight: 800;
+}
+
+.selector {
+    cursor: pointer;
+}
+
+
